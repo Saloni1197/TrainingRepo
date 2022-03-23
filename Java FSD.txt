@@ -1,0 +1,18 @@
+JAVA FSD Training 
+
+https://github.com/vskreddy652/core_java
+
+https://drive.google.com/drive/folders/0B6q-PB-6k7WvcWQ0QWx1SWR4ZWc?resourcekey=0-1cJUWaFi__jbWyKfJJeJ0Q&usp=sharing
+
+for github -- go to drive download folder for ppt
+
+
+public class Eg {
+  public static long fact(int n) {
+    return n < 2 ? 1 : n * fact(n - 1);
+  }
+  public static void main(String[] args) {
+    System.out.println(fact(1 << 15));
+  }
+}
+
